@@ -29,8 +29,8 @@ Euclid's method for finding the greatest common divisor (GCD) of two starting le
 
   The algorithm can be written in pseudo-code as follows
 
-
- ``` Euclid(a,b) {
+``` C++
+  Euclid(a,b) {
 
      while (b not 0) { 
   
