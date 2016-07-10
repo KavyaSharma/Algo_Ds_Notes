@@ -6,9 +6,9 @@ import java.io.*;
 
 class RodCutting
 {   //a fxn for calculating max of two nos.
-	static int max(int a,int b)
+     static int max(int a,int b)
      { 
-     	 return(a > b) ? a : b ;
+        return(a > b) ? a : b ;
      	 
      }
      
@@ -41,7 +41,3 @@ class RodCutting
 /*OUTPUT
 Maximum value is 24 */
 
-
-
-
-  
