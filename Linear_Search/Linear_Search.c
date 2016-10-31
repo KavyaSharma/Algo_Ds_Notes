@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+// Function for linear search
+int Linear_Search(int array[], int size, int desired)
+{
+    for(int i = 0; i < size; i++)
+    {
+        // return position of the element if it is found
+        if(array[i] == desired)
+            return i;
+    }
+
+    return -1;
+}
+
+// Driver Function
+int main()
+{
+    int array[] = {2, 4, 6, 7, 3, 1, 5};
+
+    // Element 4 to be searched
+    if(Linear_Search(array, 7, 4) != -1)
+        printf("Found \n");
+    else
+        printf("Not Found\n");
+
+    //Element 9 to be searched
+    if(Linear_Search(array, 7, 9) != -1)
+        printf("Found\n");
+    else
+        printf("Not Found\n");
+
+    return 0;
+}
+
+
+/* Output
+   Found
+   Not Found
+*/
